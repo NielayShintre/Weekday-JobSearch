@@ -13,7 +13,7 @@ const Home = () => {
 
   const fetchMoreData = async () => {
     const limit = 10;
-    const url = `${process.env.VERCEL_URL}/api/jobs?limit=${limit}&offset=${offset}`;
+    const url = `${window.location.origin}/api/jobs?limit=${limit}&offset=${offset}`;
 
     try {
       const response = await fetch(url);
