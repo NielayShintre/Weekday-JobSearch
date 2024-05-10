@@ -13,8 +13,8 @@ const Home = () => {
 
   const fetchMoreData = async () => {
     const limit = 10;
-    const url = `http://localhost:3000/api/jobs?limit=${limit}&offset=${offset}`;
- // const url = `https://weekday-v1-7j3fraudc-nielayshintres-projects.vercel.app/api/jobs?limit=${limit}&offset=${offset}`;
+    // const url = `http://localhost:3000/api/jobs?limit=${limit}&offset=${offset}`;
+    const url = `${window.location.origin}/api/jobs?limit=${limit}&offset=${offset}`;
 
     try {
       const response = await fetch(url);
