@@ -53,50 +53,7 @@ const Home = () => {
     };
   }, [loader, hasMore]);
 
-  const filteredJobs = useMemo(() => {
-    return jobData.filter((job) => {
-      // Filter logic using filters from the Redux store
-      const roleMatch = !filters.roles.length
-        ? true
-        : filters.roles.some(
-            (role) => role.toLowerCase() === job.jobRole.toLowerCase()
-          );
 
-      const salaryMatch =
-        !filters.minBasePay ||
-        (job.minJdSalary <= filters.minBasePay &&
-          job.maxJdSalary >= filters.minBasePay);
-
-      const searchMatch =
-        !filters.searchCompany ||
-        job.companyName
-          .toLowerCase()
-          .includes(filters.searchCompany.toLowerCase());
-
-      const locationMatch =
-        !filters.location.length ||
-        filters.location.some((location) =>
-          location === "Remote"
-            ? job.location.toLowerCase() === "remote"
-            : job.location.toLowerCase() !== "remote"
-        );
-
-      const experienceMatch =
-        !filters.Experience ||
-        (job.minExp <= filters.Experience && job.maxExp >= filters.Experience);
-
-      const hasNullValues = Object.values(job).some((value) => value === null);
-
-      return (
-        roleMatch &&
-        salaryMatch &&
-        searchMatch &&
-        experienceMatch &&
-        locationMatch &&
-        !hasNullValues
-      );
-    });
-  }, [jobData, filters]);
 
   return (
     <>
@@ -111,7 +68,7 @@ const Home = () => {
           marginTop: "80px",
         }}
       >
-        {filteredJobs.map((job, index) => (
+        {jobData.map((job, index) => (
           <Box
             key={index}
             sx={{
