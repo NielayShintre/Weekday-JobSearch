@@ -15,7 +15,7 @@ export default function Experience() {
   };
   return (
     <Autocomplete
-      sx={{ m: 1, minWidth: "200px", maxHeight: "5px", maxWidth: "auto" }}
+      sx={{ m: 1, minWidth: "180px", maxHeight: "5px", maxWidth: "auto" }}
       options={experiences}
       getOptionLabel={(option) => option.toString()}
       value={selectedExperience}

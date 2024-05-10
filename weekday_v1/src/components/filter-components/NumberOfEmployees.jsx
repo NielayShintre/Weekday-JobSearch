@@ -6,7 +6,7 @@ import { numbers } from "../Constants";
 export default function NumberOfEmployees() {
   return (
     <Autocomplete
-      sx={{ m: 1, minWidth: "220px", maxHeight: "5px", maxWidth: "auto" }}
+      sx={{ m: 1, minWidth: "210px", maxHeight: "5px", maxWidth: "auto" }}
       multiple
       options={numbers}
       getOptionLabel={(option) => option}

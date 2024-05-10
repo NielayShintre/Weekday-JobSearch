@@ -15,7 +15,7 @@ export default function MinBasePay() {
 
   return (
     <Autocomplete
-      sx={{ m: 1, minWidth: "220px", maxHeight: "5px", maxWidth: "auto" }}
+      sx={{ m: 1, minWidth: "200px", maxHeight: "5px", maxWidth: "auto" }}
       options={basePay}
       getOptionLabel={(option) => option.toString()}
       value={selectedBasePay}

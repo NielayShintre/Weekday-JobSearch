@@ -20,7 +20,7 @@ export default function Roles() {
 
   return (
     <Autocomplete
-      sx={{ m: 1, minWidth: 150, maxHeight: "15px", maxWidth: "auto" }}
+      sx={{ m: 1, minWidth: '220px', maxHeight: "15px", maxWidth: "auto" }}
       multiple
       options={roles}
       getOptionLabel={(option) => option.role}
