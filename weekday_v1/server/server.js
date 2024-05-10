@@ -2,17 +2,15 @@
 import express from "express";
 import cors from "cors";
 import fetch from "node-fetch";
-import path from 'path';
 
 const app = express();
+// app.use(cors());
+
 app.use(
   cors({
-    origin: "*", 
+    origin: "*",
   })
 );
-
-const __dirname = path.resolve();
-app.use(express.static(path.join(__dirname, 'dist')));
 
 const fetchData = async (url) => {
   try {
