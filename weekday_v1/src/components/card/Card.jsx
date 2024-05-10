@@ -1,5 +1,5 @@
 import { useState } from "react";
-import TransitionsModal from "../Modal";
+import TransitionsModal from "./Modal";
 import img1 from "../../assets/img1.jpg";
 import img2 from "../../assets/img2.jpg";
 
