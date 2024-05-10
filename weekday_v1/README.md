@@ -1,5 +1,10 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To run the code locally, follow these steps:
+1. Download the zip file of the code
+2. Open the extracted folder in VS Code
+3. Open the vs code cmd by pressing (ctrl + ~)
+4. Run command - npm I (this will install all the dependencies from the package file)
+5. Now run the command - npm run dev (this will successfully run the app on localhost)
 
-To run on local machine: run command - npm run dev
+Happy Hacking😄
