@@ -12,6 +12,8 @@ Features:
 1. Multiple filters to select from for custom search
 2. A modal that shows company details on the cards
 3. Infinite scroll (just like IG)
+4. Responsive Design
+5. Considered performance-enhancing techniques (use memo hook)
 
 Tech Stack Used:
 1. React
