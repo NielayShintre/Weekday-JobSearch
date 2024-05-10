@@ -3,24 +3,6 @@ import { TextField, Autocomplete, MenuItem, Chip } from "@mui/material";
 import CheckIcon from "@mui/icons-material/Check";
 import { techStack } from "../Constants";
 
-const data = [
-  "Javascript",
-  "React",
-  "Python",
-  "Java",
-  "Ruby/Rails",
-  "Django",
-  "C#",
-  "Kotlin",
-  "GoLang",
-  "GraphQL",
-  "Flask",
-  "Typescript",
-  "AWS",
-  "Rust",
-  "Node",
-];
-
 export default function TechStack() {
   return (
     <Autocomplete
