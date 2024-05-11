@@ -1,5 +1,7 @@
 # React + Vite
 
+Live Preview: https://weekday-v1.vercel.app/
+
 To run the code locally, follow these steps:
 1. Download the zip file of the code
 2. Open the extracted folder in VS Code
