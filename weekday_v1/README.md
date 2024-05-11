@@ -8,7 +8,7 @@ To run the code locally, follow these steps:
 3. Open the vs code cmd by pressing (ctrl + ~)
 4. Run command - npm i (this will install all the dependencies from the package file)
 5. Now start the node server by running this command by going into the server folder: node server
-6. Now run the command(go back to root folder) - npm run dev (this will successfully run the app on locally)
+6. Now run the command(go back to root folder) - npm run dev (this will successfully run the app locally)
 
 
 Features: 
