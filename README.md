@@ -1,5 +1,5 @@
 
 Demo video:
 
-https://github.com/NielayShintre/Weekday-JobSearch/assets/58285218/38d8ab7b-0ea2-4c61-9566-230cb70f031c
+https://github.com/NielayShintre/Weekday-JobSearch/assets/58285218/588df1c0-d8a5-46b7-a0fe-471408e883f9
 
