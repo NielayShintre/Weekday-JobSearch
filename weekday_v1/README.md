@@ -1,6 +1,11 @@
 # React + Vite
 
-Live Preview: https://weekday-v1.vercel.app/
+Live Preview: [https://weekday-v1.vercel.app/](https://codesandbox.io/p/github/NielayShintre/Weekday-JobSearch/draft/lingering-fire?embed=1&file=%2Fweekday_v1%2Fpackage.json&workspaceId=e31d268d-953f-4176-867c-34a34a033c99)
+
+To run in code sand box for live preview:
+1. run the cmd node server by going into server folder
+2. Run cmd npm run dev by going into root folder
+
 
 To run the code locally, follow these steps:
 1. Download the zip file of the code
