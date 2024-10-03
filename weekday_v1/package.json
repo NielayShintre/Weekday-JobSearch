@@ -6,7 +6,7 @@
   "homepage": "https://NielayShintre.github.io/Weekday-JobSearch",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d ./dist",
     "start": "node server.js",
     "dev": "vite",
     "build": "vite build",
